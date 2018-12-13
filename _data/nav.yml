@@ -1,0 +1,20 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Chat
+  link: /chat.html
+- name: Conference
+  link: /conference.html
+- name: Jobs
+  link: /jobs.html
+- name: Journal
+  link: /journal.html
+- name: Local
+  link: /local.html
+- name: Mailing List
+  link: /mailing-list.html
+- name: Planet
+  link: /planet.html
+- name: Wiki
+  link: /wiki.html

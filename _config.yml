@@ -24,8 +24,8 @@ logo: "/files/logo/c4l_logo/c4l_logo.RGB_400px.png"
 logo_alt: "Code4Lib"
 include: ['_pages']
 
+# header_pages is a list of pages that will be included in site navigation. Not in use. Removed default listing of About.
 header_pages:
-  - about.md
 
 #  - music  last.fm's group pages taken down
 #  - https://shop.spreadshirt.com/code4lib/
@@ -43,6 +43,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+show_excerpts: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -47,6 +47,11 @@ plugins:
   - jekyll-feed
   - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-paginate
+
+# Pagination settings
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # jekyll-archives configuration
 # See https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md

@@ -44,13 +44,18 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Algolia Search config
+algolia:
+  application_id: VKWV860Y0Z
+  index_name: code4lib
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules
+    - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
